@@ -1,12 +1,25 @@
-* {
-  box-sizing: border-box;
+/* index.css */
+
+/* Add this CSS class for the logout button */
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Apply some hover effect to the logout button */
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Apply some margin to separate the logout button from other elements */
+.logout-button:not(:last-child) {
+  margin-right: 10px;
 }

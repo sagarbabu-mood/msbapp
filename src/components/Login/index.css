@@ -1,0 +1,136 @@
+/* index.css */
+
+/* Login Container */
+body {
+  background-color: #f2f2f2;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Label */
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input Field */
+input[type='email'],
+input[type='password'] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Error Message */
+.error-message-login {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Submit Button */
+button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Login Here Message */
+.login-here {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-here p {
+  margin: 0;
+}
+
+.login-here a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Error Message Display */
+.error-message-display {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Additional Message */
+p {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+  /* Adjust form width for smaller screens */
+  .login-container {
+    max-width: 300px;
+  }
+
+  /* Reduce font size for labels and input fields */
+  label {
+    font-size: 14px;
+  }
+
+  input[type='email'],
+  input[type='password'] {
+    font-size: 14px;
+  }
+
+  /* Reduce font size for the title */
+  h2 {
+    font-size: 20px;
+  }
+
+  /* Adjust button padding for smaller screens */
+  button[type='submit'] {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

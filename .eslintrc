@@ -55,6 +55,11 @@
     "react/no-unescaped-entities": "warn",
     "react/jsx-props-no-spreading": "off",
     "operator-assignment": ["warn", "always"],
-    "radix": "off"
+    "radix": "off",
+    "react/self-closing-comp": 0,
+    "react/destructuring-assignment": 0,
+    "react/no-access-state-in-setstate": 0,
+    "no-shadow": 0,
+    "react/no-array-index-key": 0
   }
 }
